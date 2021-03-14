@@ -1,0 +1,36 @@
+---
+output: 
+  pdf_document:
+    latex_engine: pdflatex
+    template: awesome-cv.tex
+geometry: margin=1in
+
+title: "CV"
+author: Edwin Rivas Meraz
+
+jobtitle: "PhD Student, University of California, Merced"
+address: "Sustainable Research and Engineering 458· 5200 N Lake Rd. Merced, CA 95343"
+fontawesome: yes
+email: erivasmeraz@ucmerced.edu
+github: erivasmeraz
+#twitter: jamjuliejung
+#phone: "510-439-7613"
+updated: yes
+
+keywords: R Markdown, academic CV, template
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: black
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+```{r}
+```
+
